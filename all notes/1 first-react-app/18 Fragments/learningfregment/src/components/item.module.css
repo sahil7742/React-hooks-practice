@@ -1,0 +1,35 @@
+.listGroup  {
+  text-align: center;
+  font-weight: 900;
+  padding: 0px 50px;
+  
+}
+.listGroupItem{
+  padding:10px;
+  color:#a40031;
+  background-color: rgba(255, 255, 255, 0.8);
+  border:none;
+  filter: drop-shadow(2px 2px 50px #020000);
+  -webkit-filter: drop-shadow(2px 2px 50px #000000);
+  overflow:hidden;
+  text-transform: capitalize;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.listGroupItem:hover{
+  background-color:rgba(33, 6, 6, 0.5);
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  border: none;
+  text-transform: capitalize;
+}
+.button{
+  background-color: #a40031;
+  color: white;
+  padding: 0px 5px;
+  border: none;
+  border-radius: 40%;
+  /* float: right; */
+}

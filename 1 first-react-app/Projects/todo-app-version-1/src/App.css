@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(to right top,#211C6A,
+  #59B4C3,
+  #74E291,
+  #EFF396);
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  align-content: center;
+}
+.todo-container h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.todo-container input{
+  width: 100%;
+  margin-left: 40px;
+}
+.items-container{
+  text-align: left;
+  margin-left: 40px;
+  
+  
+  
+}
+.kg-row{
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: italic;
+  
+}
+.kg-button{
+  min-width: 80px;
+  margin-left: 40px;
+}
